@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Newcastle jobs
+region: london
 permalink: /region/newcastle-jobs.html
 ---
 
