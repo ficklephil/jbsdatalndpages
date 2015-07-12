@@ -1,20 +1,19 @@
-
 <!-- Heading -->
 <header class="intro">
     <div class="container">
         <div class="jumbotron">
-            <h2 class="main-title">{{ site.title }}</h2>
-            <p>Jobsdata.co.uk - Helping you gain more data about jobs within the UK job market,
-                so that you are able to make an informed careers choice.</p>
-            <a href="https://twitter.com/jobsdatauk" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @jobsdatauk</a>
+            <h1 id="Jobs-{{ page.title }}" class="main-title">Jobs {{ page.title }}</h1>
+            <h3>@Jobsdata.co.uk</h3>
+            <p>Jobs {{ page.title }} - job data. Gain more information about
+                jobs within the current UK London job market, to help you
+                make an informed careers choice.
+            </p>
+            <a href="https://twitter.com/{{site.twitter_username}}" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @jobsdatauk</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
             <p class="powered-by-text">Data powered by <a href="http://www.lmiforall.org.uk/">LMI for All</a></p>
             <div class="menu">
                 <ul class="menu-list">
                     <li class="menu-list-item"><a href="http://jobsdata.co.uk">Home</a></li>
-                    <!--<li class="menu-list-item"><a href="about">All Careers</a></li> |-->
-                    <!--<li class="menu-list-item"><a href="about/?region=london">About Us</a></li> |-->
-                    <!--<li class="menu-list-item"><a href="careerlinks/?region=london">Job links</a></li>-->
                 </ul>
             </div>
         </div>

@@ -1,5 +1,6 @@
 # Site settings
 title: Jobs Data
+keywords : jobs,job,careers,uk,search,uk job,data
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -9,7 +10,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 siteurl: "http://jobsdata.co.uk"
 jobs: "/jobs/"
-twitter_username: jekyllrb
+twitter_username: jobsdatauk
 github_username:  jekyll
 
 # Build settings

@@ -2,9 +2,25 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jobs {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}. Informing your career decisions with {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} Jobs Data.</title>
+  <!-- Description and Keywords for SEO -->
+  <meta name="description" content="Jobs {{ page.title }} - jobs data. Gain more information about jobs within the current UK {{ page.title }} jobs market, to help you make an informed careers choice.">
+  <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}" />
+  <!--Social Sharing -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="http://jobsdata.co.uk{{page.permalink}}"/>
+  <meta property="og:site_name" content="JobsData.co.uk"/>
+  <meta property="og:title" content="Jobs {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}. Informing your career decisions with {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} Jobs Data."/>
+  <meta property="og:country-name" content="United Kingdom"/>
+  <meta property="og:description" content="Jobs {{ page.title }} - jobs data. Gain more information about jobs within the current UK {{ page.title }} jobs market, to help you make an informed careers choice."/>
+  <meta property="og:region" content="{{ page.title }}"/>
+  <meta property="og:locality" content="{{ page.title }}"/>
+  <meta property="og:postal-code" content=""/>
+  <meta name="twitter:site" content="@JobsDataUk"/>
+  <meta name="twitter:title" content="Jobs {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}. Informing your career decisions with {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} Jobs Data."/>
+  <meta name="twitter:url" content="http://jobsdata.co.uk{{page.permalink}}"/>
+  <meta name="twitter:description" content="Jobs {{ page.title }} - jobs data. Gain more information about jobs within the current UK {{ page.title }} jobs market, to help you make an informed careers choice."/>
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,500' rel='stylesheet' type='text/css'>
 
     <!--<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">-->
