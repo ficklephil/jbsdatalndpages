@@ -3,9 +3,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Jobs {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}. Informing your career decisions with {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} Jobs Data.</title>
+
   <!-- Description and Keywords for SEO -->
   <meta name="description" content="Jobs {{ page.title }} - jobs data. Gain more information about jobs within the current UK {{ page.title }} jobs market, to help you make an informed careers choice.">
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}" />
+
   <!--Social Sharing -->
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="http://jobsdata.co.uk{{page.permalink}}"/>
@@ -21,12 +23,9 @@
   <meta name="twitter:url" content="http://jobsdata.co.uk{{page.permalink}}"/>
   <meta name="twitter:description" content="Jobs {{ page.title }} - jobs data. Gain more information about jobs within the current UK {{ page.title }} jobs market, to help you make an informed careers choice."/>
 
+  <!-- Stylesheets -->
   <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,500' rel='stylesheet' type='text/css'>
-
-    <!--<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">-->
   <link rel="stylesheet" href="http://jobsdata.co.uk/styles/main.css">
 
-
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="canonical" href="http://jobsdata.co.uk{{ page.url }}">
 </head>

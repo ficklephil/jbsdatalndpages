@@ -1,10 +1,10 @@
 ---
 layout: page
 title: London
-excerpt: Newcastle jobs
 keywords : jobs london, london jobs, jobs in london, jobs, job, london, careers, career, uk
 toprankedwords : jobs london, london jobs, part time jobs london, jobs in london, part time jobs in london, london job, job london, graduate jobs london
-region: london
+region: London
+regionAlias: london
 permalink: /jobs-london.html
 ---
 
@@ -44,6 +44,6 @@ We hope you enjoy the site, and that it's informative.
 
 + Finance is London's biggest job industry, and London itself is one of the major financial centers of the world.
 Therefore there are a high number of finance jobs within London - around 325 thousand people work
-in financial service jobs in London.
+in financial jobs in London.
 
 + Did you know that over 3.2 million of the jobs in greater London are within the service industries?
